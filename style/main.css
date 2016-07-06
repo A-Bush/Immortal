@@ -1,1 +1,50 @@
 @import url(fonts.css);
+body{
+	margin: 0;
+}
+.block{
+	width: 880px;
+}
+.fluid{
+	width: 100%;
+}
+.center{
+	margin: 0 auto;
+}
+.bgblack{
+	background-color: #000000;
+}
+.bgwhite{
+	background-color: #ffffff;
+}
+.right{
+	float: right;
+}
+.ticon{
+	background-image: url(../img/twitter.png);
+	width: 27px;
+	height: 28px;
+}
+.ficon{
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	width: 27px;
+	height: 28px;
+}
+nav{
+	padding: 25px;
+}
+nav > ul{
+	margin: 0;
+	list-style: none;
+}
+nav > ul > li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+li > a{
+	display: block;
+}
