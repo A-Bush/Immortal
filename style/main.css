@@ -42,6 +42,7 @@ nav > ul > li{
 a{
 	text-decoration: none;
 	padding-right: 10px;
+	color: inherit;
 }
 li > a{
 	display: block;
@@ -70,4 +71,39 @@ h1{
     border: none;
     border-bottom: #ffffff 1px solid;
     outline: none;
+}
+.button{
+	display: block;
+	border-radius: 10px;
+	text-align: center;
+	padding: 15px 45px;
+}
+.main{
+	background-color: #ffffff;
+	width: 100px;
+	font-size: 18pt;
+	margin: 30px auto 0;
+	color: #797979;
+}
+header{
+	padding-bottom: 120px;
+	background: url(../img/VectorSmartObject.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+    background-position-y: bottom;
+}
+#menu{
+	font-family: Lato-Thin, Arial;
+	font-size: 14pt;
+}
+#menu li:last-child{
+	float: right;
+	font-size: 24pt;
+	font-family: GillSans;
+}
+#menu li:last-child > a{
+	font-family: Lato-Light, Arial;
+	font-size: 14pt;
+	color: blue;
+	text-align: right;
 }
