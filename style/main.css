@@ -1,6 +1,10 @@
 @import url(fonts.css);
+@import url(font-awesome.min.css);
 body{
 	margin: 0;
+	font-family: Lato-Light, Arial;
+	font-size: 15pt;
+	text-align: center;
 }
 .block{
 	width: 880px;
@@ -13,38 +17,57 @@ body{
 }
 .bgblack{
 	background-color: #000000;
+	color: #ffffff;
+	
 }
 .bgwhite{
 	background-color: #ffffff;
+	color: #797979;
 }
 .right{
 	float: right;
 }
-.ticon{
-	background-image: url(../img/twitter.png);
-	width: 27px;
-	height: 28px;
-}
-.ficon{
-	background-image: url(../img/facebook.png);
-	background-repeat: no-repeat;
-	background-position: 50%;
-	width: 27px;
-	height: 28px;
-}
+
 nav{
 	padding: 25px;
 }
 nav > ul{
 	margin: 0;
 	list-style: none;
+	text-align: left;
 }
 nav > ul > li{
 	display: inline-block;
 }
 a{
 	text-decoration: none;
+	padding-right: 10px;
 }
 li > a{
 	display: block;
+}
+#top a{
+	font-size: 13pt;
+	color: #ffffff;
+}
+#top a:hover{
+	color:#00B8FD;
+}
+h1{
+	font-size: 34pt;
+	font-weight: normal;
+}
+.blue{
+	color: #00B8FD;
+}
+#year{
+	background-color: black;
+    border: none;
+    border-bottom: #797979 1px solid;
+}
+#year:focus{
+	background-color: black;
+    border: none;
+    border-bottom: #ffffff 1px solid;
+    outline: none;
 }
