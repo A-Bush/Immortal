@@ -1,1 +1,24 @@
 @import url(fonts.css);
+
+body{
+	margin: 0;
+}
+
+.block{
+	width: 880px;
+}
+.fluid{
+	width: 100%;
+}
+.center{
+	margin: 0 auto;
+}
+.bgblack{
+	background-color: #000000;
+}
+.bgwhite{
+	background-color: #ffffff;
+}
+.test{
+	height: 500px;
+}
