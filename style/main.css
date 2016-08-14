@@ -188,11 +188,48 @@ header{
 	color: #797979;
 	margin-top: 3px;
 }
-.slider{
+.slide{
 	padding: 100px;
 }
 .s-1{
-	background: url(../)
+	background: url(../img/imghos1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+}
+.s-2{
+	background: url(../img/imghos2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+}
+.s-3{
+	background: url(../img/imghos3.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+}
+.s-4{
+	background: url(../img/imghos4.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+}
+.s-5{
+	background: url(../img/imghos1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+}
+.s-6{
+	background: url(../img/imghos6.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+}
+.s-7{
+	background: url(../img/imghos7.png);
+	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 50%;
 }
@@ -240,6 +277,29 @@ header{
 	font-family: Lato-Medium, Arial;
 	font-size: 26pt;
 	color: #a6a6a6;
-	margin-bottom: 3px;
+	margin: 0;
+	padding: 15px 0;
 	text-transform: uppercase;
+	border-bottom: 1px solid white;
+	
+}
+
+
+.slick-dots li button::before {
+     
+    width: 10px;
+    height: 10px;
+    content: "";
+    opacity: 1;
+    background-color: #a3a3a3;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    
+}
+
+.slick-dots li button:hover::before, 
+.slick-dots li button:focus::before, 
+.slick-dots li.slick-active button::before {
+    opacity: 1;
+    background-color: #00c1fc;
 }
