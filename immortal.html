@@ -4,11 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=2">
 	<title>Immortal</title>
-	<link rel="stylesheet" type="text/css" href="style/main.css">
-	<link rel="stylesheet" href="style/sl.css">
 	<link rel="stylesheet" href="slick/slick.css">
 	<link rel="stylesheet" href="slick/slick-theme.css">
-
+	<link rel="stylesheet" type="text/css" href="style/main.css">
 </head>
 <body>
 	<header class="bgblack fluid">
@@ -365,7 +363,7 @@
 			</ul>
 			<p>pre-orders</p>
 		</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, suscipit?</p>
+		<p>After reaching the point of <span class="black">100.000</span> the price will be increased.</p>
 		<a href="#" class="button btn-green">Order Now!</a>
 	</section>
 	<section class="bgwhite fluid dollarblack">
@@ -381,19 +379,37 @@
 
 			<div class="money_time left">
 				<h5 class="MT26pt">money</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni maxime iste, nostrum aliquid excepturi fugiat. <br><span>100.000$</span></p>
-				<p>15 <span>%</span><span>off</span></p>
+				<p>The price will be based<br>
+				 on cost of all your<br>
+				 property summarily but<br>
+				 no less than<br>
+				<span class="blue LS">100.000$</span></p>
+				<p class="LB68">15 <span class="LS39">%</span><span class="blue LS off">off</span></p>
 				<div>counter</div>
-				<a href="">Order discount</a>
+				<a href="#" class="button od">Order discount</a>
 			</div>
 			<div class="money_time right">
 				<h5 class="MT26pt">time</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aliquid, optio accusantium in deserunt asperiores aliquam fugiat repellendus tempora? Illum?
+				<p>Customer will work for<br>
+				 Immoortal<sup>TM</sup> for 250<br>
+				 years. This includes<br> 
+				 quitting  current<br>
+				 company and  and<br>
+				 attending a quick<br> 
+				 interview with our HR.
 				</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum explicabo omnis quasi ipsa recusandae suscipit accusantium error ea dolor sit.
+				<p>Customer will work at<br>
+				Immoortal<sup>TM</sup> 10<br>
+				 first years from the<br>
+				 moment of  contract<br> 
+				 signing. Next 10 years<br> 
+				 customer can work<br> 
+				 wherever he wants.<br> 
+				 Next 10 years back in<br> 
+				 Immoortal<sup>TM</sup> repeatedly.
 				</p>
 			</div>
-			<p class="mt690">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit corporis dignissimos consequuntur, mollitia explicabo voluptatum facere, quaerat maxime asperiores nobis eum autem fugit voluptatem quis?</p>
+			<p class="mt690">After reaching <span class="blue">100.000</span> pre-orders the price and amount of working<br> years will be increased to <span class="LM">500.000$</span> and <span class="LM">2500</span> cordingly </p>
 		</div>
 		
 	</section>
@@ -412,7 +428,10 @@
       $('.slider').slick({
        	infinite: true,
   		slidesToShow: 4,
-  		slidesToScroll: 3,
+  		slidesToScroll: 1,
+  		arrows: false,
+  		autoplay: true,
+  		autoplaySpeed: 1000,  		
   		dots: true
       });
     });
