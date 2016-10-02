@@ -5,30 +5,58 @@
 	height: 110px;
 	position: relative;
 }
-	
-#counter > p {
+#second_counter{
+	margin: auto;
+	width: 235px;
+	height: 55px;
+	position: relative;
+}
+
+#counter > p,
+#second_counter > p{
     position: absolute;
     right: -125px;
     bottom: -45px;
     font-size: 20pt;
     color: #797979;
 }
-#counter a {
+#counter a,
+#second_counter a {
 	cursor: pointer;
 	text-decoration: none;
 	color: #ccc;
 }
 
-#counter a:hover {
+#counter a:hover,
+#second_counter a:hover{
 	color: #fff;
 }
 
-#counter ul {
+#counter ul,
+#second_counter ul {
 	list-style: none;
 	padding-left: 0;
 }
 
 /* Skeleton */
+
+/* secondary counter */
+#second_counter ul.flip {
+	position: relative;
+	float: left;
+	margin: 2px;
+	width: 30px;
+	height: 60px;
+	font-family: "Lato-Bold";
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 64px;
+	border-radius: 6px;
+	/*box-shadow: 0 2px 5px rgba(0, 0, 0, .7);*/
+}
+
+
+
 
 ul.flip {
 	position: relative;
@@ -125,11 +153,11 @@ ul.flip li a div.down div.inn {
 
 /* PLAY */
 
-body.play ul li.before {
+.counters.play ul li.before {
 	z-index: 3;
 }
 
-body.play ul li.active {
+.counters.play ul li.active {
 	animation: asd .5s .5s linear both;
 	z-index: 2;
 }
@@ -146,7 +174,7 @@ body.play ul li.active {
 	}
 }
 
-body.play ul li.active .down {
+.counters.play ul li.active .down {
 	z-index: 2;
 	animation: turn .5s .5s linear both;
 }
@@ -160,7 +188,7 @@ body.play ul li.active .down {
 	}
 }
 
-body.play ul li.before .up {
+.counters.play ul li.before .up {
 	z-index: 2;
 	animation: turn2 .5s linear both;
 }
@@ -176,7 +204,7 @@ body.play ul li.before .up {
 
 /* SHADOW */
 
-body.play ul li.before .up .shadow {
+.counters.play ul li.before .up .shadow {
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, 1)));
 	background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
@@ -186,7 +214,7 @@ body.play ul li.before .up .shadow {
 	animation: show .5s linear both;
 }
 
-body.play ul li.active .up .shadow {
+.counters.play ul li.active .up .shadow {
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, 1)));
 	background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
@@ -198,7 +226,7 @@ body.play ul li.active .up .shadow {
 
 /*DOWN*/
 
-body.play ul li.before .down .shadow {
+.counters.play ul li.before .down .shadow {
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, .1)));
 	background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
@@ -208,7 +236,7 @@ body.play ul li.before .down .shadow {
 	animation: show .5s linear both;
 }
 
-body.play ul li.active .down .shadow {
+.counters.play ul li.active .down .shadow {
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, .1)));
 	background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);

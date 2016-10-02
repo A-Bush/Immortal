@@ -264,7 +264,7 @@ header{
 	background-image: url(../img/plus.png);
 	background-repeat: no-repeat;
 	background-position: 50%;
-	
+
 }
 .money_time{
 	width: 285px;
@@ -303,13 +303,13 @@ header{
 
 
 .slick-dots li button::before {
-    width: 10px;
-    height: 10px;
-    content: "";
-    opacity: 1;
-    background-color: #a3a3a3;
-    -webkit-border-radius: 5px;
-            border-radius: 5px;
+	width: 10px;
+	height: 10px;
+	content: "";
+	opacity: 1;
+	background-color: #a3a3a3;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .slick-dots li button:hover::before,
@@ -333,7 +333,7 @@ header{
 .money_time > .LB68{
 	font-family: Lato-Black, Arial;
 	font-size: 68pt;
-	margin: 50px auto 35px;
+	margin: 15px auto 0;
 	position: relative;
 	text-align: center;
 }
@@ -364,7 +364,7 @@ header{
 .buynow{
 	height: 300px;
 	font-size: 16pt;
-	
+
 }
 .discount{
 	background-color: #39a200;
@@ -402,7 +402,7 @@ header{
 }
 .yourcity{
 	text-align: left;
-	
+
 }
 #city{
 	border: 1px solid #b9b9b9;
@@ -430,6 +430,7 @@ header{
 .question{
 	width: 590px;
 	padding: 4%;
+	text-align: left;
 }
 
 .question__input{
@@ -441,7 +442,7 @@ header{
 	font-size: 18pt;
 	display: inline;
 	box-sizing: border-box;
-	
+
 }
 .question__input:focus{
 	color: black;
@@ -468,9 +469,49 @@ header{
 	font-family: Lato-Medium, Arial;
 	font-size: 22pt;
 	color: #fff;
-	
+
 }
 .checkbox{
-	color: blue;
+	display: none;
 }
 
+label[for="news"]{
+	position: relative;
+	top: 20px;
+}
+
+label[for="news"]::before{
+	background-size: 100%;
+	content: "";
+	display: inline-block;
+	height: 18px;
+	margin-right: 20px;
+	width: 18px;
+}
+
+.checkbox + [for="news"]::before{
+	background-image: url(../img/Check_1.png);
+}
+
+.checkbox:checked + [for="news"]::before{
+	background-image: url(../img/Check_0.png);
+}
+
+/* secondary counter */
+#second_counter ul.flip:nth-of-type(2n){
+	margin-right: 15px;
+}
+
+#second_counter ul.flip:nth-of-type(2n)::after{
+	content: ":";
+	color: #fff;
+	font-size: 60px;
+	position: absolute;
+	left: 30px;
+}
+#second_counter ul.flip:last-of-type{
+	margin-right: 2px;
+}
+#second_counter ul.flip:last-of-type::after{
+	display: none;
+}
