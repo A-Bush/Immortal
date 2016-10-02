@@ -6,6 +6,7 @@ body{
 	font-family: Lato-Light, Arial;
 	font-size: 15pt;
 	text-align: center;
+	background-color: #fff;
 }
 h3{
 	font-weight: normal;
@@ -22,7 +23,7 @@ h3{
 .bgblack{
 	background-color: #000000;
 	color: #ffffff;
-	
+
 }
 .bgwhite{
 	background-color: #ffffff;
@@ -75,7 +76,7 @@ h1{
     font-family: Lato-Thin, Arial;
     font-size: 22pt;
     width: 150px;
-    
+
 }
 #year:focus{
 	background-color: black;
@@ -133,7 +134,7 @@ header{
 .blackblock{
 	background-image: url(../img/PERSONALIMMORTALITY.png),
 	url(../img/Blackblock.png);
-	background-repeat: no-repeat, no-repeat; 
+	background-repeat: no-repeat, no-repeat;
 	background-position: center, center;
     background-color: white;
     background-size: 695px 50px, 100%;
@@ -218,7 +219,7 @@ header{
 	background-image: url(../img/top.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 }
 .money_time{
 	width: 285px;
