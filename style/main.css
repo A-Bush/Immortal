@@ -68,20 +68,20 @@ h1{
 }
 #year{
 	background-color: black;
-    border: none;
-    border-bottom: #797979 1px solid;
-    color:#ffffff;
-    text-align: center;
-    font-family: Lato-Thin, Arial;
-    font-size: 22pt;
-    width: 150px;
-    
+	border: none;
+	border-bottom: #797979 1px solid;
+	color:#ffffff;
+	text-align: center;
+	font-family: Lato-Thin, Arial;
+	font-size: 22pt;
+	width: 150px;
+
 }
 #year:focus{
 	background-color: black;
-    border: none;
-    border-bottom: #ffffff 1px solid;
-    outline: none;
+	border: none;
+	border-bottom: #ffffff 1px solid;
+	outline: none;
 }
 .button{
 	display: block;
@@ -91,19 +91,19 @@ h1{
 }
 .main{
 	background-color: #ffffff;
-    width: 100px;
-    font-size: 16pt;
-    margin: 30px auto 0;
-    color: #797979;
-    font-weight: bold;
-    padding: 15px 45px;
+	width: 100px;
+	font-size: 16pt;
+	margin: 30px auto 0;
+	color: #797979;
+	font-weight: bold;
+	padding: 15px 45px;
 }
 header{
 	padding-bottom: 120px;
 	background: url(../img/VectorSmartObject.png);
 	background-repeat: no-repeat;
 	background-position-x: right;
-    background-position-y: bottom;
+	background-position-y: bottom;
 }
 #menu{
 	font-family: Lato-Thin, Arial;
@@ -136,33 +136,33 @@ header{
 	url(../img/Blackblock.png);
 	background-repeat: no-repeat, no-repeat; 
 	background-position: center, center;
-    background-color: white;
-    background-size: 695px 50px, 100%;
-    color: #959595;
-    height: 430px;
+	background-color: white;
+	background-size: 695px 50px, 100%;
+	color: #959595;
+	height: 430px;
 }
 .mb100{
 	margin-bottom: 100px;
 }
 .btn-blue{
 	background-color: #00c1fc;
-    width: 250px;
-    font-family: Lato-Black, Arial;
-    font-size: 24pt;
-    margin: 30px auto 0;
-    color: #fff;
-    font-weight: bold;
-    padding: 15px 45px;
+	width: 250px;
+	font-family: Lato-Black, Arial;
+	font-size: 24pt;
+	margin: 30px auto 0;
+	color: #fff;
+	font-weight: bold;
+	padding: 15px 45px;
 }
 .btn-green{
 	background-color: #39a200;
-    width: 175px;
-    font-family: Lato-Black, Arial;
-    font-size: 24pt;
-    margin: 30px auto 0;
-    color: #fff;
-    font-weight: bold;
-    padding: 15px 45px;
+	width: 175px;
+	font-family: Lato-Black, Arial;
+	font-size: 24pt;
+	margin: 30px auto 0;
+	color: #fff;
+	font-weight: bold;
+	padding: 15px 45px;
 }
 .mt100{
 	margin-top: 100px;
@@ -245,8 +245,8 @@ header{
 }
 .crossred_dollar{
 	position: absolute;
-    top: -10px;
-    right: 360px;
+	top: -10px;
+	right: 360px;
 }
 .dollarblack{
 	margin-top: 85px;
@@ -260,13 +260,19 @@ header{
 	background-size: cover;
 	
 }
+.bgplus{
+	background-image: url(../img/plus.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	
+}
 .money_time{
 	width: 285px;
 	height: 600px;
 	border: 1px solid #797979;
 	border-radius: 5px;
 	font-size: 16pt;
-		
+
 }
 .money_time > p{
 	text-align: left;
@@ -297,22 +303,22 @@ header{
 
 
 .slick-dots li button::before {
-     
-    width: 10px;
-    height: 10px;
-    content: "";
-    opacity: 1;
-    background-color: #a3a3a3;
-    -webkit-border-radius: 5px;
-            border-radius: 5px;
-    
+
+	width: 10px;
+	height: 10px;
+	content: "";
+	opacity: 1;
+	background-color: #a3a3a3;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
 }
 
 .slick-dots li button:hover::before, 
 .slick-dots li button:focus::before, 
 .slick-dots li.slick-active button::before {
-    opacity: 1;
-    background-color: #00c1fc;
+	opacity: 1;
+	background-color: #00c1fc;
 }
 .LM{
 	font-family: Lato-Medium, Arial;
@@ -340,11 +346,137 @@ header{
 }
 .od{
 	background-color: #39a200;
-    width: 170px;
-    font-family: Lato-Black, Arial;
-    font-size: 18pt;
-    margin: 30px auto 30px;
-    color: #fff;
-    font-weight: bold;
-    padding: 15px 15px;
+	width: 170px;
+	font-family: Lato-Black, Arial;
+	font-size: 18pt;
+	margin: 30px auto 30px;
+	color: #fff;
+	font-weight: bold;
+	padding: 15px 15px;
 }
+.bottom::before{
+	content: "";
+	height: 75px;
+	display: block;
+	background-image: url(../img/bottom.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 101%;
+}
+.buynow{
+	height: 300px;
+	font-size: 16pt;
+	
+}
+.discount{
+	background-color: #39a200;
+	width: 130px;
+	font-family: Lato-Regular, Arial;
+	font-size: 14pt;
+	margin: -20px 480px;
+	color: #fff;
+	padding: 8px 8px;
+	position: absolute;
+	z-index: 1;
+}
+.btn-bn{
+	background-color: #000000;
+	width: 175px;
+	font-family: Lato-Black, Arial;
+	font-size: 24pt;
+	margin: 0px auto 0;
+	color: #fff;
+	font-weight: bold;
+	padding: 20px 50px;
+	position: relative;
+}
+.bottom{
+	margin-top: 0;
+}
+
+.accepted{
+	position: relative;
+	top: -8px;
+	font-size: 14pt;
+}
+.tm{
+	font-size: 10pt;
+}
+.yourcity{
+	text-align: left;
+	
+}
+#city{
+	border: 1px solid #b9b9b9;
+	border-radius: 10px;
+	text-align: left;
+	font-family: Lato-Thin, Arial;
+	font-size: 18pt;
+	width: 250px;
+	height: 60px;
+	margin-left: 220px;
+	padding-left: 20px;
+
+}
+#city:focus{
+	outline: none;
+	color: #686565;
+}
+.check{
+	display: inline;
+	width: initial;
+	margin: 0 10px;
+	padding: 15px 30px;
+	border: none;
+}
+.question{
+	width: 590px;
+	padding: 4%;
+}
+
+.question__input{
+	border-radius: 10px;
+	border: 1px solid #b9b9b9;
+	color: #686565;
+	padding: 10px;
+	font-family: Lato-Thin, Arial;
+	font-size: 18pt;
+	display: inline;
+	box-sizing: border-box;
+	
+}
+.question__input:focus{
+	color: black;
+	outline: none;
+}
+.question__textarea{
+	width:100%;
+	margin: auto;
+	height: 150px;
+}
+
+.question__name{
+	width: 25%;
+	margin-right:3%;
+}
+.question__email{
+	width: 35%;
+	margin-right: 10%
+}
+.question__ask{
+	width: 25%;
+	display: inline;
+	background-color: #00c1fc;
+	font-family: Lato-Medium, Arial;
+	font-size: 22pt;
+	color: #fff;
+	
+}
+.checkbox{
+	color: blue;
+}
+
+
+
+
+
