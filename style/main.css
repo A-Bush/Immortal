@@ -515,3 +515,11 @@ label[for="news"]::before{
 #second_counter ul.flip:last-of-type::after{
 	display: none;
 }
+.footer::before{
+	content: "";
+	height: 75px;
+	display: block;
+	background-image: url(../img/top.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
