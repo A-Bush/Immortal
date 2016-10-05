@@ -110,10 +110,15 @@ header{
 	font-size: 14pt;
 	margin: 60px;
 }
-#menu li:last-child{
-	float: right;
+.phone{
 	font-size: 24pt;
 	font-family: GillSans-Light, Arial;
+	margin: 0;
+	color: #aeaeae;
+}
+#menu li:last-child{
+	float: right;
+	
 }
 #menu li:last-child > a{
 	font-family: Lato-Light, Arial;
@@ -515,11 +520,61 @@ label[for="news"]::before{
 #second_counter ul.flip:last-of-type::after{
 	display: none;
 }
-.footer::before{
-	content: "";
-	height: 75px;
+
+footer{
+	height: 450px;
+	padding-top: 65px;
+}
+.address{
+	width: 330px;
+	text-align: left;
+	
+}
+.links{
+	width: 240px;
+	text-align: left;
+	padding-left: 40px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+.sotial{
+	width: 196px;
+	
+}
+footer .blue{
+text-decoration: underline;
+font-size: 16pt;
+font-family: Lato-Light, Arial;
+}
+footer .phone{
+	line-height: 0.7;
+}
+.headquarters{
+	color: #b9b9b9;
+	
+}
+.links > a{
 	display: block;
-	background-image: url(../img/top.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	padding: 0 0 18px 0;
+}
+.sotial > img{
+	display: block;
+	padding: 0 0 17px 0;
+}
+footer .block{
+	padding: 57px;
+	box-sizing: border-box;
+	height: 410px;
+}
+.sotial > a{
+	display: block;
+	padding: 0 0 15px 0;
+}
+.copy{
+	text-align: center;
+	color: #656565;
+	margin: 10px;
+	font-size: 12pt;
+	
 }
