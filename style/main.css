@@ -40,6 +40,7 @@ nav > ul{
 	margin: 0;
 	list-style: none;
 	text-align: left;
+	padding: 0;
 }
 nav > ul > li{
 	display: inline-block;
@@ -111,14 +112,16 @@ header{
 	margin: 60px;
 }
 .phone{
-	font-size: 24pt;
+	font-size: 20pt;
 	font-family: GillSans-Light, Arial;
 	margin: 0;
 	color: #aeaeae;
 }
 #menu li:last-child{
-	float: right;
-	
+	position: relative;
+	top: 15px;
+	left: 15px;
+
 }
 #menu li:last-child > a{
 	font-family: Lato-Light, Arial;
@@ -528,7 +531,7 @@ footer{
 .address{
 	width: 330px;
 	text-align: left;
-	
+
 }
 .links{
 	width: 240px;
@@ -540,19 +543,19 @@ footer{
 
 .sotial{
 	width: 196px;
-	
+
 }
 footer .blue{
-text-decoration: underline;
-font-size: 16pt;
-font-family: Lato-Light, Arial;
+	text-decoration: underline;
+	font-size: 16pt;
+	font-family: Lato-Light, Arial;
 }
 footer .phone{
 	line-height: 0.7;
 }
 .headquarters{
 	color: #b9b9b9;
-	
+
 }
 .links > a{
 	display: block;
@@ -576,5 +579,10 @@ footer .block{
 	color: #656565;
 	margin: 10px;
 	font-size: 12pt;
-	
+
+}
+.timer{
+	font-family: Lato-Bold;
+	font-size: 35px;
+	margin-top: 15px;
 }
